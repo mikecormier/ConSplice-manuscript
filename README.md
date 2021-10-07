@@ -1,6 +1,6 @@
 # ConSplice Manuscript Repo
 
-Jupyter Notebooks and scripts to replicate the ConSplice and ConSpliceML results for the ConSplice Manuscript.  
+Jupyter Notebooks, scripts, and some data used to replicate the ConSplice and ConSpliceML results for the ConSplice Manuscript.  
 
 ### Directories
 
