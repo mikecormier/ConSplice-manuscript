@@ -402,9 +402,9 @@ def identify_flanking_score(
 
         Parameters:
         -----------
-        1) score_pos: (int) The start position of the current score region
-        2) end_pos:   (int) The end position for the entire region
-        3) region_size: (int) The size of the score regions
+        1) score_pos:    (int) The start position of the current score region
+        2) end_pos:      (int) The end position for the entire region
+        3) region_size:  (int) The size of the score regions
         4) region_count: (int) The number of total regions for a predetermined range
 
         Returns:
@@ -554,7 +554,7 @@ def get_interval_scores(
             temp_scores.append(score[2])
 
         if len(temp_scores) > 1:
-            print("!!ERROR!! Too many left scores")
+            print("*WARNING* Too many left scores")
 
         ## If there is no region score, stop. don't continue if there is no region or a missing region
         if len(temp_scores) < 1:
@@ -590,7 +590,7 @@ def get_interval_scores(
             temp_scores.append(score[2])
 
         if len(temp_scores) > 1:
-            print("!!ERROR!! Too many right scores")
+            print("*WARNING* Too many right scores")
 
         ## If there is no region score, stop. don't continue if there is no region or a missing region
         if len(temp_scores) < 1:
@@ -615,7 +615,7 @@ def get_interval_scores(
         left_exon_score.append(score[2])
 
     if len(left_exon_score) > 1:
-        print("!!ERROR!! To many start scores")
+        print("*WARNING* To many start scores")
 
     ## Get the exon end score
     right_exon_score = []
@@ -627,7 +627,7 @@ def get_interval_scores(
         right_exon_score.append(score[2])
 
     if len(right_exon_score) > 1:
-        print("!!ERROR!! To many end scores")
+        print("*WARNING* To many end scores")
 
     ## Center Scores
     exon_scores = []
@@ -646,7 +646,7 @@ def get_interval_scores(
             temp_scores.append(score[2])
 
         if len(temp_scores) > 1:
-            print("!!ERROR!! To many center scores")
+            print("*WARNING* To many center scores")
 
         ## If there is no region score, stop. don't continue if there is no region or a missing region
         if len(temp_scores) < 1:
@@ -750,7 +750,7 @@ def score_regions(
             break
 
     ## Check for missing scores
-    if not target_end_score or not target_end_score:
+    if not target_start_score or not target_end_score:
         return (["NA"], ["NA"], ["NA"], ["NA"], ["NA"], ["NA"], ["NA"], ["NA"])
 
     ## Get the left and right scores
