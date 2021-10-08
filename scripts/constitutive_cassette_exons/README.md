@@ -14,6 +14,7 @@ The scripts and data associated with these scripts are used in **Figure 3** of t
 
 ## Script definition 
 
+#### POLISH **score_constitutive_cassette_exons.py** (Like removing the \*WARNINGS\*
 
 | Script | Description |
 | ------ | ----------- |
