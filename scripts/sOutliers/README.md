@@ -1,6 +1,6 @@
 # Splicing Outliers (sOutliers) 
 
-This repo contains the script used to download the splicing outliers identified by [Ferrano et al.](https://www.science.org/doi/10.1126/science.aaz5900) and used to evaulate the ability of the genic ConSplice model to identify splicing specific constraint. **Figure 2** and **Supplemental Figure S3**
+This repo contains the script used to download the splicing outliers identified by [Ferraro et al.](https://www.science.org/doi/10.1126/science.aaz5900) and used to evaulate the ability of the genic ConSplice model to identify splicing specific constraint. **Figure 2** and **Supplemental Figure S3**
 
 
 
