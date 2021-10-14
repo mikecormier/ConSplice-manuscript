@@ -32,5 +32,11 @@ The script used to download these files can be found in the [scripts](https://gi
 
 
 
+## Dosage Sensitivity (V<sup>G</sup>)
 
+V<sup>G</sup> values from the [Mohammadi et al.](https://www.science.org/doi/10.1126/science.aay0256?) paper generated using GTEx data. 
+
+| Data File Name | Description | Data Host Link |
+| -------------- | ----------- | -------------- |
+| Vg.gene_level.ANEVA_tableS1.weighted_harmonic_mean.txt | The gene level averaged harmonic mean across tissues V<sup>G</sup> scores from Mohammadi et al. representing expression variation by gene. | Supplemental Table S1 from [Mohammadi et al.](https://www.science.org/doi/10.1126/science.aay0256?) | 
 
