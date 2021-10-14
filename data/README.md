@@ -60,7 +60,7 @@ The variants represent a filtered set of variants that are in protein-coding gen
 
 | Data File Name | Description | Data Host Link |
 | -------------- | ----------- | -------------- |
-| scored_patho_vars.from.lit.txt | The set of benign variants used to compare ConSpliceML to CADD, SpliceAI, and SQUIRLS. | [CEPH from Sasani et al.](https://elifesciences.org/articles/46922), [deCODE from Jónsson et al.](https://www.nature.com/articles/nature24018),and  [GTEx from Jaganathan et al.](https://www.sciencedirect.com/science/article/pii/S0092867418316295?via%3Dihub) |
+| benign.combined.txt | The set of benign variants used to compare ConSpliceML to CADD, SpliceAI, and SQUIRLS. | [CEPH from Sasani et al.](https://elifesciences.org/articles/46922), [deCODE from Jónsson et al.](https://www.nature.com/articles/nature24018), and [GTEx from Jaganathan et al.](https://www.sciencedirect.com/science/article/pii/S0092867418316295?via%3Dihub) |
 
 
 
