@@ -26,9 +26,9 @@ The script used to download these files can be found in the [scripts](https://gi
 
 | Data File Name | Description | Data Host Link |
 | -------------- | ----------- | -------------- |
-| HEXEvent.GRCh38.cassette_exons.txt | Cassette exons defined with a constitutive level (constitLevel) and inclusion level (incLevel) < 1.0. (Score ranges between 0.0 - 1.0, with a 1.0 == a constitutively expressed exon and a score < 1.0 a cassette expressed exon) | [HEXEvent](http://hexevent.mmg.uci.edu/cgi-bin/HEXEvent/HEXEventWEB.cgi) | 
-| HEXEvent.GRCh38.consitutive_exons.txt | Constitutive exons defined with a constitutive level (constitLevel) and inclusion level (incLevel) == 1.0. (Score ranges between 0.0 - 1.0, with a 1.0 score == a constitutively expressed exon and a score < 1.0 a cassette expressed exon) | [HEXEvent](http://hexevent.mmg.uci.edu/cgi-bin/HEXEvent/HEXEventWEB.cgi) | 
-| constitutive_and_cassette_exons.gtf | A gtf file filtered for constitutive and cassette exons using the [constitutive_cassette_exon_gtf_filter.py](https://github.com/mikecormier/ConSplice-manuscript/scripts/constitutive_cassette_exon_gtf_filter.py) script in the script directory of this repo | [ConSplice Scripts](https://github.com/mikecormier/ConSplice-manuscript/scripts) |
+| *HEXEvent.GRCh38.cassette_exons.txt* | Cassette exons defined with a constitutive level (constitLevel) and inclusion level (incLevel) < 1.0. (Score ranges between 0.0 - 1.0, with a 1.0 == a constitutively expressed exon and a score < 1.0 a cassette expressed exon) | [HEXEvent](http://hexevent.mmg.uci.edu/cgi-bin/HEXEvent/HEXEventWEB.cgi) | 
+| *HEXEvent.GRCh38.consitutive_exons.txt* | Constitutive exons defined with a constitutive level (constitLevel) and inclusion level (incLevel) == 1.0. (Score ranges between 0.0 - 1.0, with a 1.0 score == a constitutively expressed exon and a score < 1.0 a cassette expressed exon) | [HEXEvent](http://hexevent.mmg.uci.edu/cgi-bin/HEXEvent/HEXEventWEB.cgi) | 
+| *constitutive_and_cassette_exons.gtf* | A gtf file filtered for constitutive and cassette exons using the [constitutive_cassette_exon_gtf_filter.py](https://github.com/mikecormier/ConSplice-manuscript/scripts/constitutive_cassette_exon_gtf_filter.py) script in the script directory of this repo | [ConSplice Scripts](https://github.com/mikecormier/ConSplice-manuscript/scripts) |
 
 
 
@@ -38,5 +38,16 @@ V<sup>G</sup> values from the [Mohammadi et al.](https://www.science.org/doi/10.
 
 | Data File Name | Description | Data Host Link |
 | -------------- | ----------- | -------------- |
-| Vg.gene_level.ANEVA_tableS1.weighted_harmonic_mean.txt | The gene level averaged harmonic mean across tissues V<sup>G</sup> scores from Mohammadi et al. representing expression variation by gene. | Supplemental Table S1 from [Mohammadi et al.](https://www.science.org/doi/10.1126/science.aay0256?) | 
+| *Vg.gene_level.ANEVA_tableS1.weighted_harmonic_mean.txt* | The gene level averaged harmonic mean across tissues V<sup>G</sup> scores from Mohammadi et al. representing expression variation by gene. | Supplemental Table S1 from [Mohammadi et al.](https://www.science.org/doi/10.1126/science.aay0256?) | 
+
+
+## Manually Currated Pathogenic Splice Altering Variants
+
+A set of 376 pathogenic splice altering variants manually currated from literature with functional evidence for each variants effect on splicing.
+
+This set excludes any splice altering variant at the canonical acceptor or donor sites, (A-2, A-1, D+1, D+2), only include variants likely to be overlooked by an analyst during rare disease clinical diagnosis 
+
+| Data File Name | Description | Data Host Link |
+| -------------- | ----------- | -------------- |
+| *scored_patho_vars.from.lit.txt* | The set of manually currated pathogenic splice altering variants used to compare performance of ConSplice to other splicing prediction methods. | [ConSplice](https://github.com/mikecormier/ConSplice-manuscript/data/) (this repo) |
 
