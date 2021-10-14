@@ -8,7 +8,7 @@
 wget -O ../../data/HI.genes.tsv https://raw.githubusercontent.com/macarthur-lab/gene_lists/master/lists/clingen_level3_genes_2018_09_13.tsv
 
 ### Autosomal Dominant Genes hosted on the MaCarthur lab gene list GitHub repo
-wget -O ../../data/AD.genes.tsv https://raw.githubusercontent.com/macarthur-lab/gene_lists/master/lists/berg_ad.tsv
+wget -O ../../data/AD.genes.tsv https://raw.githubusercontent.com/macarthur-lab/gene_lists/master/lists/all_ad.tsv
 
 ### Autosomal Recessive Genes hosted on the MaCarthur lab gene list GitHub repo
 wget -O ../../data/AR.genes.tsv https://raw.githubusercontent.com/macarthur-lab/gene_lists/master/lists/all_ar.tsv
