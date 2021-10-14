@@ -17,10 +17,6 @@ wget -O ../../data/AR.genes.tsv https://raw.githubusercontent.com/macarthur-lab/
 wget -O ../../data/OR.genes.tsv https://raw.githubusercontent.com/macarthur-lab/gene_lists/master/lists/olfactory_receptors.tsv
 
 
-## Homozygous Tolerant genes hosted on the MaCarthur lab gene list GitHub repo
-wget -O ../../data/Hom.LoF_tolerant.genes.tsv https://raw.githubusercontent.com/macarthur-lab/gene_lists/master/lists/homozygous_lof_tolerant_twohit.tsv
-
-
 ## CRISPR Essential and Non-Essential Gene lists
 
 ### CRISPR Essential Genes hosted on the MaCarthur lab gene list GitHub repo
@@ -34,3 +30,20 @@ wget -O ../../data/CRISPR.Nonessential.genes.tsv https://raw.githubusercontent.c
 
 ### DD/ID genes from the Deciphering Developmental Delay studies hosted on the Gene2Phenotype website
 wget -O ../../data/DD.ID.genes.csv.gz https://www.ebi.ac.uk/gene2phenotype/downloads/DDG2P.csv.gz
+
+
+## Homozygous Tolerant genes hosted on the MaCarthur lab gene list GitHub repo
+### Data from the Karczewki et al., Nature, 2020 on gnomAD. Supplemental Data Table 7: "supplementary_dataset_7_hom_ko_genes.txt" 
+#### Download supplmentary data zip file
+wget https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-020-2308-7/MediaObjects/41586_2020_2308_MOESM4_ESM.zip
+
+## Unzip it
+unzip 41586_2020_2308_MOESM4_ESM.zip
+
+## move the homozygous LoF genes to the data directory 
+mv supplement/supplementary_dataset_7_hom_ko_genes.txt ../../data/Hom.LoF_tolerant.genes.tsv
+
+## Remove unnecessary files. 
+rm 41586_2020_2308_MOESM4_ESM.zip 
+rm -r supplement/
+rm -r __MACOSX/
