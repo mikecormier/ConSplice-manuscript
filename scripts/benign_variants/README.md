@@ -1,12 +1,12 @@
 # Benign Variants
 
-Benign variants used to evaluate the performance of CADD, SpliceAI, SQUIRLS, and ConSplice in **Figure 5** of the manuscript. 
+Benign variants used to evaluate the performance of CADD, SpliceAI, SQUIRLS, and ConSpliceML in **Figure 5** of the manuscript. 
 
 Variants are a combination of de novo mutations (DNM) from [CEPH](https://elifesciences.org/articles/46922) and [deCODE](https://www.nature.com/articles/nature24018), and [benign alternative splicing variants](https://www.sciencedirect.com/science/article/pii/S0092867418316295?via%3Dihub) validated in the GTEx RNA-seq data, with each dataset downloaded from the respective paper.
 
 ## Benign variants download
 
-  - GRCh37 DNM from CEPH were downloaded from the GitHub repo associated with the [Sasani et al.](https://elifesciences.org/articles/46922) paper [here](https://github.com/quinlan-lab/ceph-dnm-manuscript).
+- GRCh37 DNM from CEPH were downloaded from the GitHub repo associated with the [Sasani et al.](https://elifesciences.org/articles/46922) paper [here](https://github.com/quinlan-lab/ceph-dnm-manuscript).
 
     - 2nd generation DNM
       ```
@@ -18,14 +18,14 @@ Variants are a combination of de novo mutations (DNM) from [CEPH](https://elifes
       ```
   DNM were then lifted over to GRCh38 using [CrossMap](http://crossmap.sourceforge.net/) 
     
-  - GRCh38 DNM from deCODE were downloaded from Supplemental Table S4 of the [Jónssonet al.](https://www.nature.com/articles/nature24018)) paper.
+- GRCh38 DNM from deCODE were downloaded from Supplemental Table S4 of the [Jónssonet al.](https://www.nature.com/articles/nature2401) paper
 
-  - GRCh37 Benign validated splicing altering variants in GTEx were downloaded from the [illumina basespace](https://basespace.illumina.com/s/otSPW8hnhaZR) for the [Jaganathan et al.](https://www.sciencedirect.com/science/article/pii/S0092867418316295?via%3Dihub) paper.  
+- GRCh37 Benign validated splicing altering variants in GTEx were downloaded from the [illumina basespace](https://basespace.illumina.com/s/otSPW8hnhaZR) from the [Jaganathan et al.](https://www.sciencedirect.com/science/article/pii/S0092867418316295?via%3Dihub) paper.  
 
     - Supplemental files representing the data from the basespace download:
 
-      * Variants seen in 1-4 indiviudals in GTEx`all/SpliceAI_supplement_v2_ds.eebebfd43c2343518df86c448517ce79/validated_preds.csv`
-      * Private variants in GTEx `all/SupplementaryData_ds.b56bfe22e7394bf39780f4312d544683/validated_preds.csv`
+      * Variants seen in 1-4 indiviudals in GTEx: `all/SpliceAI_supplement_v2_ds.eebebfd43c2343518df86c448517ce79/validated_preds.csv`
+      * Private variants in GTEx: `all/SupplementaryData_ds.b56bfe22e7394bf39780f4312d544683/validated_preds.csv`
 
   The unique set of variants were then lifted over to GRCh38 using [CrossMap](http://crossmap.sourceforge.net/). 
 
