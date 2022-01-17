@@ -32,7 +32,7 @@ wget -O ../../data/CRISPR.Nonessential.genes.tsv https://raw.githubusercontent.c
 wget -O ../../data/DD.ID.genes.csv.gz https://www.ebi.ac.uk/gene2phenotype/downloads/DDG2P.csv.gz
 
 
-## Homozygous Tolerant genes hosted on the MaCarthur lab gene list GitHub repo
+## Homozygous LoF Tolerant genes from gnomAD
 ### Data from the Karczewki et al., Nature, 2020 on gnomAD. Supplemental Data Table 7: "supplementary_dataset_7_hom_ko_genes.txt" 
 #### Download supplmentary data zip file
 wget https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-020-2308-7/MediaObjects/41586_2020_2308_MOESM4_ESM.zip
