@@ -9,14 +9,14 @@ The script used to download these files can be found in the [scripts](https://gi
 
 | Data File Name | Description | Data Host Link |
 | -------------- | ----------- | -------------- |
-| **AD.genes.tsv** | Autosomal Dominant genes | [AD MaCarthur Gene List](https://github.com/macarthur-lab/gene_lists/blob/master/lists/berg_ad.tsv) |
-| **AR.genes.tsv** | Autosomal Recessive genes | [AR MaCarthur Gene List](https://github.com/macarthur-lab/gene_lists/blob/master/lists/all_ar.tsv) |
-| **CRISPR.Essential.genes.tsv** | Genes determined to be essential in cell culture CRISPR screens | [CRISPER Ess. MaCarthur Gene List](https://github.com/macarthur-lab/gene_lists/blob/master/lists/CEGv2_subset_universe.tsv) |
-| **CRISPR.Nonessential.genes.tsv** | Genes determined to be non-essential in cell culture CRISPR screens | [CRISPER NonEss. MaCarthur Gene List](https://github.com/macarthur-lab/gene_lists/blob/master/lists/NEGv1_subset_universe.tsv) |
-| **DD.ID.genes.csv.gz** | Genes associated with Developmental Delay and Intelectual Disability from the Deciphering Developmental Disease studies | [Gene2Phenotype](https://www.ebi.ac.uk/gene2phenotype/) and [Gene2Phenotype donwloads](https://www.ebi.ac.uk/gene2phenotype/downloads/) |
-| **HI.genes.tsv** | Haplosinsufficient genes | [HI MaCarthur Gene List](https://github.com/macarthur-lab/gene_lists/blob/master/lists/clingen_level3_genes_2018_09_13.tsv) |
-| **Hom.LoF_tolerant.genes.tsv** | Homozogyous loss-of-function (LoF) tolerant genes currated by the gnomAD group in their 2020 Nature paper entitled "*The mutational constraint spectrum quantified from variation in 141,456 humans*" | Supplementary Data Table 7 from [Karczewski et al.](https://www.nature.com/articles/s41586-020-2308-7) |
-| **OR.genes.tsv** | Olfactory Receptor genes | [OR MaCarthur Gene List](https://github.com/macarthur-lab/gene_lists/blob/master/lists/olfactory_receptors.tsv) |
+| [AD.genes.tsv](https://github.com/mikecormier/ConSplice-manuscript/blob/main/data/AD.genes.tsv) | Autosomal Dominant genes | [AD MaCarthur Gene List](https://github.com/macarthur-lab/gene_lists/blob/master/lists/berg_ad.tsv) |
+| [AR.genes.tsv](https://github.com/mikecormier/ConSplice-manuscript/blob/main/data/AR.genes.tsv) | Autosomal Recessive genes | [AR MaCarthur Gene List](https://github.com/macarthur-lab/gene_lists/blob/master/lists/all_ar.tsv) |
+| [CRISPR.Essential.genes.tsv](https://github.com/mikecormier/ConSplice-manuscript/blob/main/data/CRISPR.Essential.genes.tsv) | Genes determined to be essential in cell culture CRISPR screens | [CRISPER Ess. MaCarthur Gene List](https://github.com/macarthur-lab/gene_lists/blob/master/lists/CEGv2_subset_universe.tsv) |
+| [CRISPR.Nonessential.genes.tsv](https://github.com/mikecormier/ConSplice-manuscript/blob/main/data/CRISPR.Nonessential.genes.tsv) | Genes determined to be non-essential in cell culture CRISPR screens | [CRISPER NonEss. MaCarthur Gene List](https://github.com/macarthur-lab/gene_lists/blob/master/lists/NEGv1_subset_universe.tsv) |
+| [DD.ID.genes.csv.gz](https://github.com/mikecormier/ConSplice-manuscript/blob/main/data/DD.ID.genes.csv.gz) | Genes associated with Developmental Delay and Intelectual Disability from the Deciphering Developmental Disease studies | [Gene2Phenotype](https://www.ebi.ac.uk/gene2phenotype/) and [Gene2Phenotype donwloads](https://www.ebi.ac.uk/gene2phenotype/downloads/) |
+| [HI.genes.tsv](https://github.com/mikecormier/ConSplice-manuscript/blob/main/data/HI.genes.tsv) | Haplosinsufficient genes | [HI MaCarthur Gene List](https://github.com/macarthur-lab/gene_lists/blob/master/lists/clingen_level3_genes_2018_09_13.tsv) |
+| [Hom.LoF_tolerant.genes.tsv](https://github.com/mikecormier/ConSplice-manuscript/blob/main/data/Hom.LoF_tolerant.genes.tsv) | Homozogyous loss-of-function (LoF) tolerant genes currated by the gnomAD group in their 2020 Nature paper entitled "*The mutational constraint spectrum quantified from variation in 141,456 humans*" | Supplementary Data Table 7 from [Karczewski et al.](https://www.nature.com/articles/s41586-020-2308-7) |
+| [OR.genes.tsv](https://github.com/mikecormier/ConSplice-manuscript/blob/main/data/OR.genes.tsv) | Olfactory Receptor genes | [OR MaCarthur Gene List](https://github.com/macarthur-lab/gene_lists/blob/master/lists/olfactory_receptors.tsv) |
 
 
 
