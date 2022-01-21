@@ -1,6 +1,6 @@
 # Scripts used for the ConSplice manuscript
 
-This directory contains scripts used for data creation, collection, and anlaysis. 
+This directory contains scripts used for data creation, collection, and analysis. 
 
 ## Script directory description
 
