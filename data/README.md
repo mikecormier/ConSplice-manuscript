@@ -13,16 +13,16 @@ The script used to download these files can be found in the [scripts](https://gi
 | [AR.genes.tsv](https://github.com/mikecormier/ConSplice-manuscript/blob/main/data/AR.genes.tsv) | Autosomal Recessive genes | [AR MaCarthur Gene List](https://github.com/macarthur-lab/gene_lists/blob/master/lists/all_ar.tsv) |
 | [CRISPR.Essential.genes.tsv](https://github.com/mikecormier/ConSplice-manuscript/blob/main/data/CRISPR.Essential.genes.tsv) | Genes determined to be essential in cell culture CRISPR screens | [CRISPER Ess. MaCarthur Gene List](https://github.com/macarthur-lab/gene_lists/blob/master/lists/CEGv2_subset_universe.tsv) |
 | [CRISPR.Nonessential.genes.tsv](https://github.com/mikecormier/ConSplice-manuscript/blob/main/data/CRISPR.Nonessential.genes.tsv) | Genes determined to be non-essential in cell culture CRISPR screens | [CRISPER NonEss. MaCarthur Gene List](https://github.com/macarthur-lab/gene_lists/blob/master/lists/NEGv1_subset_universe.tsv) |
-| [DD.ID.genes.csv.gz](https://github.com/mikecormier/ConSplice-manuscript/blob/main/data/DD.ID.genes.csv.gz) | Genes associated with Developmental Delay and Intelectual Disability from the Deciphering Developmental Disease studies | [Gene2Phenotype](https://www.ebi.ac.uk/gene2phenotype/) and [Gene2Phenotype donwloads](https://www.ebi.ac.uk/gene2phenotype/downloads/) |
-| [HI.genes.tsv](https://github.com/mikecormier/ConSplice-manuscript/blob/main/data/HI.genes.tsv) | Haplosinsufficient genes | [HI MaCarthur Gene List](https://github.com/macarthur-lab/gene_lists/blob/master/lists/clingen_level3_genes_2018_09_13.tsv) |
-| [Hom.LoF_tolerant.genes.tsv](https://github.com/mikecormier/ConSplice-manuscript/blob/main/data/Hom.LoF_tolerant.genes.tsv) | Homozogyous loss-of-function (LoF) tolerant genes currated by the gnomAD group in their 2020 Nature paper entitled "*The mutational constraint spectrum quantified from variation in 141,456 humans*" | Supplementary Data Table 7 from [Karczewski et al.](https://www.nature.com/articles/s41586-020-2308-7) |
+| [DD.ID.genes.csv.gz](https://github.com/mikecormier/ConSplice-manuscript/blob/main/data/DD.ID.genes.csv.gz) | Genes associated with Developmental Delay and Intellectual Disability from the Deciphering Developmental Disease studies | [Gene2Phenotype](https://www.ebi.ac.uk/gene2phenotype/) and [Gene2Phenotype donwloads](https://www.ebi.ac.uk/gene2phenotype/downloads/) |
+| [HI.genes.tsv](https://github.com/mikecormier/ConSplice-manuscript/blob/main/data/HI.genes.tsv) | Haploinsufficient genes | [HI MaCarthur Gene List](https://github.com/macarthur-lab/gene_lists/blob/master/lists/clingen_level3_genes_2018_09_13.tsv) |
+| [Hom.LoF_tolerant.genes.tsv](https://github.com/mikecormier/ConSplice-manuscript/blob/main/data/Hom.LoF_tolerant.genes.tsv) | Homozogyous loss-of-function (LoF) tolerant genes curated by the gnomAD group in their 2020 Nature paper entitled "*The mutational constraint spectrum quantified from variation in 141,456 humans*" | Supplementary Data Table 7 from [Karczewski et al.](https://www.nature.com/articles/s41586-020-2308-7) |
 | [OR.genes.tsv](https://github.com/mikecormier/ConSplice-manuscript/blob/main/data/OR.genes.tsv) | Olfactory Receptor genes | [OR MaCarthur Gene List](https://github.com/macarthur-lab/gene_lists/blob/master/lists/olfactory_receptors.tsv) |
 
 
 
 ## Constitutive and Cassette exons:
 
-**GRCh38** *Constitutive* and *Cassete* exon definitions were downloaded from the [HEXEvent](http://hexevent.mmg.uci.edu/cgi-bin/HEXEvent/HEXEventWEB.cgi) web portal and stored in this repo. 
+**GRCh38** *Constitutive* and *Cassette* exon definitions were downloaded from the [HEXEvent](http://hexevent.mmg.uci.edu/cgi-bin/HEXEvent/HEXEventWEB.cgi) web portal and stored in this repo. 
 
 | Data File Name | Description | Data Host Link |
 | -------------- | ----------- | -------------- |
@@ -50,15 +50,15 @@ The sOutliers from the [Ferraro et al.](https://www.science.org/doi/10.1126/scie
 | [gtexV8.sOutlier.stats.globalOutliers.removed.txt.gz](https://github.com/mikecormier/ConSplice-manuscript/blob/main/data/gtexV8.sOutlier.stats.globalOutliers.removed.txt.gz) | The per gene cross-tissue p-values for splicing outliers found for each GTEx sample | GTEx portal v8: [website](https://storage.googleapis.com/gtex_analysis_v8/outlier_calls/), [file](https://storage.googleapis.com/gtex_analysis_v8/outlier_calls/GTEx_v8_outlier_calls.zip) | 
 
 
-## Manually Currated Pathogenic Splice Altering Variants
+## Manually Curated Pathogenic Splice Altering Variants
 
-A set of 376 pathogenic splice altering variants manually currated from literature with functional evidence for each variants effect on splicing.
+A set of 376 pathogenic splice altering variants manually curated from literature with functional evidence for each variants effect on splicing.
 
 This set excludes any splice altering variant at the canonical acceptor or donor sites, (A-2, A-1, D+1, D+2), only including variants likely to be overlooked by an analyst during rare disease clinical diagnosis 
 
 | Data File Name | Description | Data Host Link |
 | -------------- | ----------- | -------------- |
-| [scored_patho_vars.from.lit.txt](https://github.com/mikecormier/ConSplice-manuscript/blob/main/data/scored_patho_vars.from.lit.txt) | The set of manually currated pathogenic splice altering variants used to compare performance of ConSplice to other splicing prediction methods. Genomic coordinates for each variant are for hg38/GRCh38 | [ConSplice](https://github.com/mikecormier/ConSplice-manuscript/tree/main/data) (this repo) |
+| [scored_patho_vars.from.lit.txt](https://github.com/mikecormier/ConSplice-manuscript/blob/main/data/scored_patho_vars.from.lit.txt) | The set of manually curated pathogenic splice altering variants used to compare performance of ConSplice to other splicing prediction methods. Genomic coordinates for each variant are for hg38/GRCh38 | [ConSplice](https://github.com/mikecormier/ConSplice-manuscript/tree/main/data) (this repo) |
 
 
 ## Benign Variants
@@ -83,6 +83,17 @@ The original pLI and LOEUF files were filtered to the constraint score column an
 | [gene_to_LOEUF.txt](https://github.com/mikecormier/ConSplice-manuscript/blob/main/data/gene_to_LOEUF.txt) | By gene gnomAD LOEUF score | [website](https://gnomad.broadinstitute.org/downloads#v2-constraint), [file](https://gnomad-public-us-east-1.s3.amazonaws.com/release/2.1.1/constraint/gnomad.v2.1.1.lof_metrics.by_gene.txt.bgz) |
 
 
+## Other data
 
+Additional data files used for the manuscript are hosted [here](https://home.chpc.utah.edu/~u1138933/ConSplice/Manuscript_Data/) because they are to large to host on github. 
 
+Files for different regional models and different weighting models can be found [here](https://home.chpc.utah.edu/~u1138933/ConSplice/models_of_splicing_constraint/).
+
+The best performing regional splicing constraint model can be found [here](https://home.chpc.utah.edu/~u1138933/ConSplice/best_splicing_constraint_model/).
+
+A vcf file with ConSpliceML scores for the majority of simulated of SNVs in protein-coding genes can be found [here](https://home.chpc.utah.edu/~u1138933/ConSplice/scored_vcf/). This vcf file contains splicing prediction and/or interpretation scores from SpliceAI, SQUIRLS, ConSplice, and ConSpliceML.
+
+## unhosted files
+
+Some files are not hosted because of licensing agreements. For example, we are unable to host the pathogenic splice-altering variant publicly because of HGMD licensing. 
 
