@@ -14,6 +14,7 @@ based on order of directories listed
 | dosage_sensitivity | Information on how to download the V<sup>G</sup> values from [Mohammadi et al.](https://www.science.org/doi/10.1126/science.aay0256?) used in **Figure 2**. |
 | gene_sets | A script to download the gene sets used for **Figure 2** and **Supplemental Figure S2, S3** in the manuscript. This script will download the gene set data files into the *data* directory of this repo. | 
 | sOutliers | A script to download and extract the sOutliers identified by [Ferraro et al.](https://www.science.org/doi/10.1126/science.aaz5900) using RNA-seq from GTEx v8. **Figure 2**. sOutliers will be downloaded to the *data* directory of this repo. | 
+| splicing_constraint_model | Brief details on create splicing constraint models. |
 
 
 
