@@ -1,6 +1,6 @@
 # Splicing Outliers (sOutliers) 
 
-This repo contains the script used to download the splicing outliers identified by [Ferraro et al.](https://www.science.org/doi/10.1126/science.aaz5900) and used to evaulate the ability of the genic ConSplice model to identify splicing specific constraint. **Figure 2** and **Supplemental Figure S3**
+This repo contains the script used to download the splicing outliers identified by [Ferraro et al.](https://www.science.org/doi/10.1126/science.aaz5900) and used to evaluate the ability of the genic ConSplice model to identify splicing specific constraint. **Figure 2** and **Supplemental Figure S3**
 
 
 
@@ -17,4 +17,4 @@ This repo contains the script used to download the splicing outliers identified 
 bash get_gtex_sOutliers.sh
 ```
 
-The files downloaded by this script will be downloaded to the [data](https://github.com/mikecormier/ConSplice-manuscript/data/) directory of this repo
+The files downloaded by this script will be downloaded to the [data](https://github.com/mikecormier/ConSplice-manuscript/tree/main/data) directory of this repo
