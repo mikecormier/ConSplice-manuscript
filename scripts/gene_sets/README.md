@@ -16,4 +16,4 @@ This repo contains the script used to download the gene sets used in the ConSpli
 bash gene_sets.sh
 ```
 
-The files downloaded by this script will be downloaded to the [data](https://github.com/mikecormier/ConSplice-manuscript/data/) directory of this repo
+The files downloaded by this script will be downloaded to the [data](https://github.com/mikecormier/ConSplice-manuscript/tree/main/data) directory of this repo
