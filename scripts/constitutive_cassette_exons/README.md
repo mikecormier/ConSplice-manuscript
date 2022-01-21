@@ -28,8 +28,8 @@ Prior to running these scripts the following need to be set up:
   - Python 3 is installed and active. 
   - conda is installed. 
   - The [ConSplice](https://github.com/mikecormier/ConSplice) CLI is installed via conda.
-  - The HEXEvent constitutive and cassette exons files have been downloaded from HEXEvent. (These files can be found in the [data](https://github.com/mikecormier/ConSplice-manuscript/data/) directory of this repo under the names `HEXEvent.GRCh38.cassette_exons.txt` and `HEXEvent.GRCh38.consitutive_exons.txt`)
-  - The data recipes in describe in the [ConSplice CLI Data Recipes](https://github.com/mikecormier/ConSplice/data_recipes/) directory are installed in the current environment 
+  - The HEXEvent constitutive and cassette exons files have been downloaded from HEXEvent. (These files can be found in the [data](https://github.com/mikecormier/ConSplice-manuscript/tree/main/data) directory of this repo under the names `HEXEvent.GRCh38.cassette_exons.txt` and `HEXEvent.GRCh38.consitutive_exons.txt`)
+  - The data recipes in describe in the [ConSplice CLI Data Recipes](https://github.com/mikecormier/ConSplice/tree/main/data_recipes) directory are installed in the current environment 
 
 
  1) Run constitutive_cassette_exon_gtf_filter.py
