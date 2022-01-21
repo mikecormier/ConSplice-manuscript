@@ -553,8 +553,8 @@ def get_interval_scores(
 
             temp_scores.append(score[2])
 
-        if len(temp_scores) > 1:
-            print("*WARNING* Too many left scores")
+        #        if len(temp_scores) > 1:
+        #            print("*WARNING* Too many left scores")
 
         ## If there is no region score, stop. don't continue if there is no region or a missing region
         if len(temp_scores) < 1:
@@ -589,8 +589,8 @@ def get_interval_scores(
 
             temp_scores.append(score[2])
 
-        if len(temp_scores) > 1:
-            print("*WARNING* Too many right scores")
+        #        if len(temp_scores) > 1:
+        #            print("*WARNING* Too many right scores")
 
         ## If there is no region score, stop. don't continue if there is no region or a missing region
         if len(temp_scores) < 1:
@@ -614,8 +614,8 @@ def get_interval_scores(
 
         left_exon_score.append(score[2])
 
-    if len(left_exon_score) > 1:
-        print("*WARNING* To many start scores")
+    #    if len(left_exon_score) > 1:
+    #        print("*WARNING* To many start scores")
 
     ## Get the exon end score
     right_exon_score = []
@@ -626,8 +626,8 @@ def get_interval_scores(
 
         right_exon_score.append(score[2])
 
-    if len(right_exon_score) > 1:
-        print("*WARNING* To many end scores")
+    #    if len(right_exon_score) > 1:
+    #        print("*WARNING* To many end scores")
 
     ## Center Scores
     exon_scores = []
@@ -645,8 +645,8 @@ def get_interval_scores(
 
             temp_scores.append(score[2])
 
-        if len(temp_scores) > 1:
-            print("*WARNING* To many center scores")
+        #        if len(temp_scores) > 1:
+        #            print("*WARNING* To many center scores")
 
         ## If there is no region score, stop. don't continue if there is no region or a missing region
         if len(temp_scores) < 1:
