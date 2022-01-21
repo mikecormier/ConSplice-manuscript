@@ -54,13 +54,13 @@ This set excludes any splice altering variant at the canonical acceptor or donor
 
 ## Benign Variants
 
-A set of 48,980 variants that either do not impact splicing or are benign splice altering variants. The set is a combination of de novo mutations from CEPH and deCODE, and benign alternative splicing variants from GTEx. 
+A set of 48,978 variants that either do not impact splicing or are benign splice altering variants. The set is a combination of de novo mutations from 3-generation pedigrees in the Utah CEPH cohort, de novo mutation from 2-generation pedigrees in the Iceland deCODE cohort, and benign alternative splicing variants from GTEx. 
 
 The variants represent a filtered set of variants that are in protein-coding genes, in the autosome, with a CADD score, SpliceAI score, SQUIRLS score, and a ConSplice score. 
 
 | Data File Name | Description | Data Host Link |
 | -------------- | ----------- | -------------- |
-| benign.combined.txt | The set of benign variants used to compare ConSpliceML to CADD, SpliceAI, and SQUIRLS. | [CEPH from Sasani et al.](https://elifesciences.org/articles/46922), [deCODE from Jónsson et al.](https://www.nature.com/articles/nature24018), and [GTEx from Jaganathan et al.](https://www.sciencedirect.com/science/article/pii/S0092867418316295?via%3Dihub) |
+| [benign.combined.txt](https://github.com/mikecormier/ConSplice-manuscript/blob/main/data/benign.combined.txt) | The set of benign variants to train and test ConSpliceML | [CEPH from Sasani et al.](https://elifesciences.org/articles/46922), [deCODE from Jónsson et al.](https://www.nature.com/articles/nature24018), and [GTEx from Jaganathan et al.](https://www.sciencedirect.com/science/article/pii/S0092867418316295?via%3Dihub) |
 
 
 
