@@ -62,5 +62,18 @@ The variants represent a filtered set of variants that are in protein-coding gen
 | -------------- | ----------- | -------------- |
 | [benign.combined.txt](https://github.com/mikecormier/ConSplice-manuscript/blob/main/data/benign.combined.txt) | The set of benign variants to train and test ConSpliceML | [CEPH from Sasani et al.](https://elifesciences.org/articles/46922), [deCODE from Jónsson et al.](https://www.nature.com/articles/nature24018), and [GTEx from Jaganathan et al.](https://www.sciencedirect.com/science/article/pii/S0092867418316295?via%3Dihub) |
 
+## pLI and LOEUF
+
+The pLI and LOEUF scores used to compared constraint metrics against the genic splicing constraint metric. 
+
+The original pLI and LOEUF files were filtered to the constraint score column and the gene column using the `pLI` or `oe_lof_upper_bin` column names from the pLI or LOEUF file, respectively.  
+
+| Data File Name | Description | Data Host Link |
+| -------------- | ----------- | -------------- |
+| [gene_to_pLI.txt](https://github.com/mikecormier/ConSplice-manuscript/blob/main/data/gene_to_pLI.txt) | By gene ExAC pLI score | [website](https://gnomad.broadinstitute.org/downloads#exac-constraint), [file](https://gnomad-public-us-east-1.s3.amazonaws.com/legacy/exac_browser/forweb_cleaned_exac_r03_march16_z_data_pLI_CNV-final.txt.gz) |
+| [gene_to_LOEUF.txt](https://github.com/mikecormier/ConSplice-manuscript/blob/main/data/gene_to_LOEUF.txt) | By gene gnomAD LOEUF score | [website](https://gnomad.broadinstitute.org/downloads#v2-constraint), [file](https://gnomad-public-us-east-1.s3.amazonaws.com/release/2.1.1/constraint/gnomad.v2.1.1.lof_metrics.by_gene.txt.bgz) |
+
+
+
 
 
