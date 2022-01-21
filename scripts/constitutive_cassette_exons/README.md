@@ -14,12 +14,10 @@ The scripts and data associated with these scripts are used in **Figure 3** of t
 
 ## Script definition 
 
-#### POLISH **score_constitutive_cassette_exons.py** (Like removing the \*WARNINGS\*
-
 | Script | Description |
 | ------ | ----------- |
 | constitutive_cassette_exon_gtf_filter.py | A script to filter a GRCh38 gtf file to those exon features designated as *constitutive* and *cassette* exons as defined by [HEXEvent](http://hexevent.mmg.uci.edu/cgi-bin/HEXEvent/HEXEventWEB.cgi). The gtf file created from this script will be used to check ConSplice scores around exons as see in **Figure 3** | 
-| score_constitutive_cassette_exons.py  | A script to score the gtf file created using the *constitutive_cassette_exon_gtf_filter.py* script with ConSplice scores. The oputput file from this script is used to see the pattern of constraint around constititutive and casset exons as see in **Figure 3** | 
+| score_constitutive_cassette_exons.py  | A script to score the gtf file created using the *constitutive_cassette_exon_gtf_filter.py* script with ConSplice scores. The output file from this script is used to see the pattern of constraint around constittutive and cassette exons as see in **Figure 3** | 
 
 
 
@@ -27,11 +25,11 @@ The scripts and data associated with these scripts are used in **Figure 3** of t
 
 Prior to running these scripts the following need to be set up:
 
-  - Python 3 is installed and active 
-  - Either conda is installed or the ConSplice docker container is active
-  - The [ConSplice](https://github.com/mikecormier/ConSplice) CLI is installed via conda or within an docker container.
+  - Python 3 is installed and active. 
+  - conda is installed. 
+  - The [ConSplice](https://github.com/mikecormier/ConSplice) CLI is installed via conda.
   - The HEXEvent constitutive and cassette exons files have been downloaded from HEXEvent. (These files can be found in the [data](https://github.com/mikecormier/ConSplice-manuscript/data/) directory of this repo under the names `HEXEvent.GRCh38.cassette_exons.txt` and `HEXEvent.GRCh38.consitutive_exons.txt`)
-  - The data recipes in describe in the [ConSplice CLI Data Recipes](https://github.com/mikecormier/ConSplice/data_recipes/) directory are installed in the current environmnet 
+  - The data recipes in describe in the [ConSplice CLI Data Recipes](https://github.com/mikecormier/ConSplice/data_recipes/) directory are installed in the current environment 
 
 
  1) Run constitutive_cassette_exon_gtf_filter.py
@@ -41,7 +39,7 @@ Prior to running these scripts the following need to be set up:
  ### This assumes that the `grch38-canonical-transcript-features-gencode-v1` data packages has been installed in the current environment 
  canonical_gtf=$(ggd get-files grch38-canonical-transcript-features-gencode-v1 -p '*.gtf.gz')
 
- ## For now, we assume the path to the "data" directory of this repo with the constitituive and cassette exons data files is stored as $data
+ ## For now, we assume the path to the "data" directory of this repo with the constitutive and cassette exons data files is stored as $data
 
  ## We will also assume the data recipes defined in the ConSplice CLI repo are stored at $data
 
@@ -63,7 +61,7 @@ Prior to running these scripts the following need to be set up:
  ### This assumes that the `grch38-canonical-transcript-features-gencode-v1` data packages has been installed in the current environment 
  canonical_gtf=$(ggd get-files grch38-canonical-transcript-features-gencode-v1 -p '*.gtf.gz')
 
- ## For now, we assume the path to the "data" directory of this repo with the constitituive and cassette exons data files is stored as $data
+ ## For now, we assume the path to the "data" directory of this repo with the constitutive and cassette exons data files is stored as $data
 
  ## We will also assume the data recipes defined in the ConSplice CLI repo are stored at $data
 
