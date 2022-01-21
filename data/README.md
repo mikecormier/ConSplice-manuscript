@@ -49,7 +49,7 @@ This set excludes any splice altering variant at the canonical acceptor or donor
 
 | Data File Name | Description | Data Host Link |
 | -------------- | ----------- | -------------- |
-| **scored_patho_vars.from.lit.txt** | The set of manually currated pathogenic splice altering variants used to compare performance of ConSplice to other splicing prediction methods. | [ConSplice](https://github.com/mikecormier/ConSplice-manuscript/data/) (this repo) |
+| [scored_patho_vars.from.lit.txt](https://github.com/mikecormier/ConSplice-manuscript/blob/main/data/scored_patho_vars.from.lit.txt) | The set of manually currated pathogenic splice altering variants used to compare performance of ConSplice to other splicing prediction methods. Genomic coordinates for each variant are for hg38/GRCh38 | [ConSplice](https://github.com/mikecormier/ConSplice-manuscript/tree/main/data) (this repo) |
 
 
 ## Benign Variants
