@@ -41,6 +41,15 @@ V<sup>G</sup> values from the [Mohammadi et al.](https://www.science.org/doi/10.
 | [Vg.gene_level.ANEVA_tableS1.weighted_harmonic_mean.txt](https://github.com/mikecormier/ConSplice-manuscript/blob/main/data/Vg.gene_level.ANEVA_tableS1.weighted_harmonic_mean.txt) | The gene level averaged harmonic mean across tissues V<sup>G</sup> scores from Mohammadi et al. representing expression variation by gene. | Supplemental Table S1 from [Mohammadi et al.](https://www.science.org/doi/10.1126/science.aay0256?) | 
 
 
+## Splicing Outliers (sOutliers)
+
+The sOutliers from the [Ferraro et al.](https://www.science.org/doi/10.1126/science.aaz5900) paper generated using GTEx data. 
+
+| Data File Name | Description | Data Host Link |
+| -------------- | ----------- | -------------- |
+| [gtexV8.sOutlier.stats.globalOutliers.removed.txt.gz](https://github.com/mikecormier/ConSplice-manuscript/blob/main/data/gtexV8.sOutlier.stats.globalOutliers.removed.txt.gz) | The per gene cross-tissue p-values for splicing outliers found for each GTEx sample | GTEx portal v8: [website](https://storage.googleapis.com/gtex_analysis_v8/outlier_calls/), [file](https://storage.googleapis.com/gtex_analysis_v8/outlier_calls/GTEx_v8_outlier_calls.zip) | 
+
+
 ## Manually Currated Pathogenic Splice Altering Variants
 
 A set of 376 pathogenic splice altering variants manually currated from literature with functional evidence for each variants effect on splicing.
