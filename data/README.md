@@ -38,7 +38,7 @@ V<sup>G</sup> values from the [Mohammadi et al.](https://www.science.org/doi/10.
 
 | Data File Name | Description | Data Host Link |
 | -------------- | ----------- | -------------- |
-| **Vg.gene_level.ANEVA_tableS1.weighted_harmonic_mean.txt** | The gene level averaged harmonic mean across tissues V<sup>G</sup> scores from Mohammadi et al. representing expression variation by gene. | Supplemental Table S1 from [Mohammadi et al.](https://www.science.org/doi/10.1126/science.aay0256?) | 
+| [Vg.gene_level.ANEVA_tableS1.weighted_harmonic_mean.txt](https://github.com/mikecormier/ConSplice-manuscript/blob/main/data/Vg.gene_level.ANEVA_tableS1.weighted_harmonic_mean.txt) | The gene level averaged harmonic mean across tissues V<sup>G</sup> scores from Mohammadi et al. representing expression variation by gene. | Supplemental Table S1 from [Mohammadi et al.](https://www.science.org/doi/10.1126/science.aay0256?) | 
 
 
 ## Manually Currated Pathogenic Splice Altering Variants
