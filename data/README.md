@@ -5,7 +5,7 @@ Data files used for the ConSplice manuscript
 
 ## Gene sets:
 
-The script used to download these files can be found in the [scripts](https://github.com/mikecormier/ConSplice-manuscript/scripts/) directory of this repo under the name [gene_sets.sh](https://github.com/mikecormier/ConSplice-manuscript/scripts/gene_sets.sh)
+The script used to download these files can be found in the [scripts](https://github.com/mikecormier/ConSplice-manuscript/tree/main/scripts) directory of this repo under the name [gene_sets.sh](https://github.com/mikecormier/ConSplice-manuscript/blob/main/scripts/gene_sets/gene_sets.sh)
 
 | Data File Name | Description | Data Host Link |
 | -------------- | ----------- | -------------- |
