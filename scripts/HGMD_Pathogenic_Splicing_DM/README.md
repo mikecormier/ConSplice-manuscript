@@ -4,7 +4,7 @@ We used the professional version of the [Human Gene Mutation Database (HGMD)](ht
 
 Because of HGMD's licensing, we are not allowed to share this dataset publicly. The user downloaded this dataset will need the professional license to HGMD.
 
-Here we share the SQL query used to download the Splice Altering DM variants used in the ConSplice manuscript. 
+Here we share the SQL query used to download the splice-altering DM variants used in the ConSplice manuscript. 
 
 These variants are used train and test the ConSpliceML model as seen in **Figure 5**, as well as to train the final ConSpliceML model for use to score variants.
 
